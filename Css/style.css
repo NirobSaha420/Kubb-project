@@ -8,6 +8,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     background-color: #f9f9f9;
@@ -72,7 +73,7 @@ section{
 }
 #Nav .navbar{
     background-color: rgba(0, 0, 0, 0.600);
-    padding: .8% 6%;
+    padding: 1% 6%;
 }
 .navbar-light .navbar-nav .nav-link.active{
     color: #28b8d8;
@@ -101,9 +102,9 @@ section{
 
 /* banner start */
 #banner{
-    padding-top: 15%;
-    padding-bottom: 18%;
-    background: url(../Images/banner.jpg);
+    padding-top: 16%;
+    padding-bottom: 19%;
+    background: url(../Images/banner.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
